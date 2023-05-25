@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+body{
+    width: 100%;
 }
 
 #nav{
@@ -32,7 +39,7 @@ header {
 .nav-item {
     margin: 0 5px;
     background-color: #008037;
-    padding: 10px 15px;
+    padding: 10px 50px;
     border-radius: 5px;  
 }
 
@@ -54,7 +61,7 @@ header {
     font-weight: 500;
     font-size: 1.1rem;
     border: none;
-    padding: 10px 15px;
+    padding: 10px 50px;
     border-radius: 5px;
     background-color: #56B4D8;
     margin: 0 5px;
