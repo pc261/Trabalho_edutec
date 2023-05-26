@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+
+
+header {
+    background-color: #BDE26C;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: .6rem 8rem;
+    height: 4rem;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 50px;
+    background-color: #008037;
+    padding: 10px 50px;
+    border-radius: 5px;  
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.logotipo{
+    width: 4.5rem;
+}
+
+
+.login-button {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 5px;
+    background-color: #56B4D8;
+    margin: 0 50px;
+}
+
+/*-------------------------------main---------------------------  */
+
+.main_login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    gap: 9rem;
+}
+
+.Logo_pagina_login{
+    width: 25rem;
+}
+
+.parte_login{
+    width: 350px;
+    height: 300px;
+    border-radius: 1rem;
+    background-color: #4DA2C2;
+
+}
+
+.itens_login{
+    text-align: center;
+    width: 100%;
+    
+}
+
+#login_esc{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 40px;
+}
+
+.email{
+    margin-top: 1rem;
+    padding: 0.4rem;
+    width: 19rem;
+    border-radius: 5rem;
+    border: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.senha{
+    margin-top: 0.5rem;
+    padding: 0.4rem;
+    width: 19rem;
+    border-radius: 5rem;
+    border: none;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#botao_entrar{
+    width: 19rem;
+    border-radius: 5rem;
+    border: none;
+    padding: 0.4rem;
+    text-decoration: none;
+    background-color: #BDE26C;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+#botao_entrar:hover{
+    width: 18rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #8FBC2D;
+    font-size: 18px;
+    margin-bottom: 0.6rem;
+}
+
+#botao_esqueceu{
+    text-decoration: none;
+    color: #034187;
+    font-family: 'Montserrat', sans-serif;
+}
+#botao_esqueceu:hover{
+    color:  #0C68D1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+hr{
+    margin-top: 0.5rem;
+    margin-inline: 0.9rem;
+    border: 0.1rem black solid ;
+    border-radius: 10rem;
+}
+#criar_conta{
+    border: none;
+    color: #fff;
+    background-color: #7ED957;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 15rem;
+    border-radius: 15rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+#criar_conta:hover{
+    cursor: pointer;
+    background-color: #4CA426;
+    width: 13rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
