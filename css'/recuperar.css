@@ -1,25 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url(./fonts_colors.css);
+
 body{
     display: flex;
     flex-direction: column;
 }
 
-#main_rec{
+#main_rec {
     display: flex;
     justify-content: center;
     align-items: center;
     height: max-content;
     margin-top: 10rem;
 }
-#infos{
+
+#infos {
     width: 30rem;
     height: 13rem;
     background-color: #4DA2C2;
     border-radius: 2rem;
 }
 
-#encontre{
+#encontre {
     margin-top: 1rem;
     margin-left: 1rem;
     margin-bottom: 0.5rem;
@@ -27,10 +28,12 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.7rem;
 }
-hr{
+
+hr {
     border: 1px white solid;
 }
-#digite_email{
+
+#digite_email {
     margin-left: 1rem;
     margin-top: 1rem;
     color: #fff;
@@ -38,14 +41,15 @@ hr{
     font-size: 1rem;
 }
 
-#email{
+#email {
     display: flex;
     justify-content: center;
     width: 100%;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-#email input{
+
+#email input {
     width: 27rem;
     padding: 0.3rem;
     border-radius: 1rem;
@@ -56,13 +60,15 @@ hr{
     font-size: 0.9rem;
 
 }
-#botões{
+
+#botões {
     display: flex;
     width: 100%;
     justify-content: right;
     gap: 1rem;
 }
-#procura{
+
+#procura {
     margin-right: 1rem;
     padding: 0.5rem;
     width: 5rem;
@@ -74,7 +80,8 @@ hr{
     color: #fff;
     font-family: 'Montserrat', sans-serif;
 }
-#cancela{
+
+#cancela {
     padding: 0.5rem;
     width: 5rem;
     text-decoration: none;
@@ -84,13 +91,15 @@ hr{
     background-color: #E1DDDD;
     font-family: 'Montserrat', sans-serif;
 }
-#cancela:hover{
+
+#cancela:hover {
     cursor: pointer;
     background-color: beige;
     font-size: 0.7rem;
     
 }
-#procura:hover{
+
+#procura:hover {
     cursor: pointer;
     background-color: #4CA426;
     font-size: 0.7rem;
