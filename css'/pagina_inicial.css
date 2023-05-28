@@ -1,14 +1,18 @@
 @import url(./fonts_colors.css);
 
 main {
-    margin-top: 3rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .titulo {
     display: flex;
     justify-content: center;
     width: 100%;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .imagens_do_centro {
@@ -28,15 +32,17 @@ main {
 }
 
 .imagem_tamanho {
-    width: 15rem;
+    width: 20rem;
     margin-bottom: 1rem;
 }
 
 .descrição {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
 }
 
 .texto_clique {
     display: flex;
     justify-content: center;
+    font-size: 2rem;
 }

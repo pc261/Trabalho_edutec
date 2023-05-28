@@ -1,53 +1,37 @@
 @import url(./fonts_colors.css);
 
+html{
+    height: 100%;
+}
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     font-family: 'Barlow Condensed', sans-serif;
 }
 
 body {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 header {
     background-color: #BDE26C;
-}
-
-.nav-bar {
     display: flex;
-    justify-content: space-between;
-    padding: .6rem 8rem;
-    height: 4rem;
-}
-
-.nav-list {
-    display: flex;
-    align-items: center;
-}
-
-.nav-list ul {
-    display: flex;
+    flex-direction: row;
+    width: 100%;
     justify-content: center;
-    list-style: none;
+    align-items: center;
+    gap: 5.5rem;
+    height: 5rem;
 }
-
-.nav-item {
-    margin: 0 50px;
-    background-color: #008037;
-    padding: 10px 50px;
-    border-radius: 5px;  
+header .logotipo{
+    display: flex;
+    align-items: start;
 }
-
-.nav-link {
-    text-decoration: none;
-    font-size: 1.15rem;
-    color: #fff;
-    font-weight: 400;
-}
-
 .logotipo {
-    width: 4.5rem;
+    width: 4rem;
 }
 
 .login-button {
@@ -55,9 +39,17 @@ header {
     color: #fff;
     font-weight: 500;
     font-size: 1.1rem;
-    border: none;
     padding: 10px 50px;
     border-radius: 5px;
     background-color: #56B4D8;
-    margin: 0 50px;
+}
+
+.button{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 10px 50px;
+    border-radius: 5px;
+    background-color: #008037;
 }
