@@ -43,3 +43,13 @@ header .logotipo{
     border-radius: 5px;
     background-color: #56B4D8;
 }
+
+.button{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 10px 50px;
+    border-radius: 5px;
+    background-color: #008037;
+}
