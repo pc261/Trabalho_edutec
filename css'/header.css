@@ -11,8 +11,7 @@ html{
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+    
     height: 100%;
 }
 
@@ -21,35 +20,44 @@ header {
     display: flex;
     flex-direction: row;
     width: 100%;
+    height: 90px;
     justify-content: center;
     align-items: center;
-    gap: 5.5rem;
-    height: 5rem;
+    gap: 118px;
 }
 header .logotipo{
     display: flex;
     align-items: start;
 }
 .logotipo {
-    width: 4rem;
+    width: 90px;
+    height: 90px;
 }
 
 .login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: #fff;
-    font-weight: 500;
-    font-size: 1.1rem;
-    padding: 10px 50px;
-    border-radius: 5px;
+    font-weight: bold;
+    font-size: 30px;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
     background-color: #56B4D8;
 }
 
 .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: #fff;
-    font-weight: 500;
-    font-size: 1.1rem;
-    padding: 10px 50px;
-    border-radius: 5px;
+    font-weight: bold;
+    font-size: 30px;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
     background-color: #008037;
 }

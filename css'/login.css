@@ -6,116 +6,127 @@ main {
     align-items: center;
     justify-content: center;
     height: 100%;
-    gap: 9rem;
+    gap: 73px;
 }
 
 .Logo_pagina_login {
-    width: 25rem;
+    width: 689px;
+    height: 640px;
 }
 
 .parte_login {
-    width: 350px;
-    height: 300px;
-    border-radius: 1rem;
+    width: 540px;
+    height: 486px;
+    border-radius: 30px;
     background-color: #4DA2C2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 
 .itens_login {
     text-align: center;
     width: 100%;
-    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #login_esc {
-    display: flex;
-    align-items: center;
-    margin-top: 1rem;
-    margin-left: 1rem;
+    width: 100%;
+    margin-left: 34px;
+    margin-top: 14px;
     color: #fff;
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 40px;
+    font-size: 58px;
 }
 
 .email {
-    margin-top: 1rem;
-    padding: 0.4rem;
-    width: 19rem;
-    border-radius: 5rem;
+    margin-top: 15px;
+    width: 473px;
+    height: 50px;
+    border-radius: 20px;
     border: none;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding: 1rem;
 
 }
 
 .senha {
-    margin-top: 0.5rem;
-    padding: 0.4rem;
-    width: 19rem;
-    border-radius: 5rem;
+    margin-top: 15px;
+    width: 473px;
+    height: 50px;
+    border-radius: 20px;
     border: none;
     text-decoration: none;
-    margin-bottom: 1rem;
     font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding: 1rem;
 }
 
 #botao_entrar {
-    width: 19rem;
+    width: 473px;
+    height: 50px;
     border-radius: 5rem;
     border: none;
-    padding: 0.4rem;
     text-decoration: none;
     background-color: #BDE26C;
     color: #fff;
-    margin-bottom: 0.5rem;
+    margin-bottom: 21px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-}
-
-#botao_entrar:hover {
-    width: 18rem;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #8FBC2D;
-    font-size: 18px;
-    margin-bottom: 0.6rem;
+    font-size: 30px;
 }
 
 #botao_esqueceu {
     text-decoration: none;
     color: #034187;
     font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin-bottom: 23px;
 }
-
-#botao_esqueceu:hover {
-    color:  #0C68D1;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    cursor: pointer;
-}
-
 hr {
-    margin-top: 0.5rem;
-    margin-inline: 0.9rem;
-    border: 0.1rem black solid ;
+    width: 473px;
+    border: 2px black solid ;
     border-radius: 10rem;
 }
-
 #criar_conta {
     border: none;
     color: #fff;
     background-color: #7ED957;
-    margin-top: 1rem;
-    padding: 0.5rem;
-    width: 15rem;
+    margin-top: 37px;
+    margin-bottom: 27px;
+    width: 287px;
+    height: 50px;
     border-radius: 15rem;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
+}
+
+/* -----------hover---------- */
+
+
+#botao_entrar:hover {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #8FBC2D;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+#botao_esqueceu:hover {
+    color:  #0C68D1;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
 }
 
 #criar_conta:hover {
     cursor: pointer;
     background-color: #4CA426;
-    width: 13rem;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
 }

@@ -13,50 +13,51 @@ body{
 }
 
 #infos {
-    width: 30rem;
-    height: 13rem;
+    width: 768px;
+    height: 355px;
     background-color: #4DA2C2;
     border-radius: 2rem;
 }
 
 #encontre {
-    margin-top: 1rem;
-    margin-left: 1rem;
-    margin-bottom: 0.5rem;
+    margin-top: 22px;
+    margin-left: 16px;
+    margin-bottom: 5.5px;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.7rem;
+    font-size: 50px;
+    font-weight: lighter;
 }
 
 hr {
-    border: 1px white solid;
+    border: 2px white solid;
 }
 
 #digite_email {
-    margin-left: 1rem;
-    margin-top: 1rem;
+    margin-left: 16px;
+    margin-top: 43.5px;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-size: 30px;
 }
 
 #email {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 49px;
+    margin-bottom: 18px;
 }
 
 #email input {
-    width: 27rem;
-    padding: 0.3rem;
+    width: 700px;
+    height: 50px;
+    padding: 1rem;
     border-radius: 1rem;
     text-decoration: none;
     border: none;
-    font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.9rem;
+    font-size: 25px;
 
 }
 
@@ -64,16 +65,20 @@ hr {
     display: flex;
     width: 100%;
     justify-content: right;
-    gap: 1rem;
+    gap: 28px;
 }
 
 #procura {
-    margin-right: 1rem;
-    padding: 0.5rem;
-    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
     text-decoration: none;
-    text-align: center;
-    border-radius: 0.5rem;
+    border-radius: 20px;
+    margin-right: 31px;
+    font-size: 25px;
+    font-weight: bold;
     border: none;
     background-color: #BDE26C;
     color: #fff;
@@ -81,25 +86,28 @@ hr {
 }
 
 #cancela {
-    padding: 0.5rem;
-    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
     text-decoration: none;
-    text-align: center;
-    border-radius: 0.5rem;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
     border: none;
     background-color: #E1DDDD;
     font-family: 'Montserrat', sans-serif;
+    color: black;
 }
 
 #cancela:hover {
     cursor: pointer;
     background-color: beige;
-    font-size: 0.7rem;
     
 }
 
 #procura:hover {
     cursor: pointer;
     background-color: #4CA426;
-    font-size: 0.7rem;
 }
