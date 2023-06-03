@@ -38,7 +38,7 @@ main {
 
 #login_esc {
     width: 100%;
-    margin-left: 34px;
+    margin-left: 26.9px;
     margin-top: 14px;
     color: #fff;
     font-family: 'Barlow Condensed', sans-serif;
@@ -81,6 +81,7 @@ main {
     margin-bottom: 21px;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
+    font-weight: bold;
 }
 
 #botao_esqueceu {

@@ -76,7 +76,7 @@ h2 {
 li {
     font-size: 1.875rem;
     margin-block: 1.6rem;
-    text-align: center;
+    text-align: left;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -89,6 +89,7 @@ li {
     height: 46.375rem;
     width: 36.875rem;
 }
+
 
 .conta {
     height: 22.5rem;
