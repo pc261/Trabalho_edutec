@@ -1,0 +1,82 @@
+@import url(./fonts_colors.css);
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 49px;
+}
+#escolha{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 115px;
+    margin-top: 141px;
+    margin-bottom: 159px;
+}
+.caixa_botao{
+    width: 547px;
+    height: 361px;
+    padding: 17px;
+    margin-bottom: 22px;
+    border-radius: 30px;
+    background-color: #4DA2C2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#link_youtube{
+    border-radius: 30px;
+}
+.botoes{
+    width: 547px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mapas_mentais{
+    width: 100%;
+    gap: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mapa{
+    width: 547px;
+    height: 300px;
+    padding: 17px;
+    margin-bottom: 57px;
+    border-radius: 30px;
+    background-color: #4DA2C2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+#Texto_inferior {
+    margin-top: -19px;
+    margin-bottom: 80px;
+    height: 53px;
+    width: 100%;
+}
+#ir_topo{
+    float: right;
+    margin-right: 72px;
+}
+p,h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+h1{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 90px;
+}
+#ir_topo img:hover{
+    transform: rotateY(180deg);
+    transition: transform 1s;
+}

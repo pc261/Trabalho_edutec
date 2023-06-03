@@ -1,7 +1,6 @@
 @import url(./fonts_colors.css);
 
 main {
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
