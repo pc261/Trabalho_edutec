@@ -48,7 +48,6 @@ main {
 }
 
 .texto_clique {
-    margin-bottom: 86px;
     display: flex;
     justify-content: center;
     font-size: 30px;
