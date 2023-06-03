@@ -13,7 +13,7 @@ main {
     justify-content: center;
     width: 100%;
     font-size: 90px;
-    margin-top: 80px;
+    margin-top: 47px;
 }
 
 .imagens_do_centro {
@@ -34,16 +34,21 @@ main {
 
 .imagem_tamanho {
     width: 403px;
-    margin-bottom: 18px;
+    margin-bottom: 21px;
+}
+#esquerda{
+    width: 433px;
+    margin-bottom: 2px;
 }
 
 .descrição {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
-    margin-bottom: 110px;
+    margin-bottom: 92px;
 }
 
 .texto_clique {
+    margin-bottom: 86px;
     display: flex;
     justify-content: center;
     font-size: 30px;
