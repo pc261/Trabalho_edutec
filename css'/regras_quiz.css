@@ -10,53 +10,108 @@
 main {
     display: flex;
     justify-content: center;
-    gap: 25rem;
+    gap: 15rem;
     height: 100%;
 }
 
 .regras {
     background: #4DA2C2;
     border: 24px solid #4DA2C2;
-    border-radius: 18px;
+    border-radius: 24px;
+    margin-top: 9rem;
+    padding-inline: 2rem;
 }
 
 .conta {
     background: #4DA2C2;
     border: 24px solid #4DA2C2;
-    border-radius: 18px;
+    border-radius: 24px;
+    margin-top: 9rem;
 }
 
 .botaoConta {
     background: #519C00;
     border: 16px solid #519C00;
     border-radius: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Hw0aXpsog.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
 #iniciar {
+    margin-top: 0.6rem;
     background: #519C00;
-    border: 16px solid #519C00;
+    border: 24px solid #519C00;
     border-radius: 24px;
     width: 100%;
     font-size: 1.8rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Hw0aXpsog.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
 h1 {
-    font-size: 2.8rem;
+    font-size: 4rem;
     margin-bottom: 0.4rem;
     text-align: center;
 }
 
 h2 {
-    font-size: 1.8rem;
-    margin-bottom: 0.4rem;
+    font-size: 3.125rem;
     text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu173w0aXpsog.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
 li {
-    font-size: 1.4rem;
-    margin-bottom: 0.4rem;
+    font-size: 1.875rem;
+    margin-block: 1.6rem;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu173w0aXpsog.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 
-#lastLi {
-    margin-bottom: 1.2rem;
+.regras {
+    height: 46.375rem;
+    width: 36.875rem;
+}
+
+.conta {
+    height: 22.5rem;
+    width: 31.25rem;
+}
+
+.botaoContaDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2.5rem;
+}
+
+button {
+    font-size: 1.875rem;
+}
+
+#entre {
+    font-size: 1.5625rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw0aXpsog.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
