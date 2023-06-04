@@ -84,3 +84,13 @@ main {
     font-weight: bold;
     font-size: 2rem;
 }
+
+.resposta:hover{
+    cursor: pointer;
+    background-color: rgb(196, 195, 195);
+}
+.respostas:hover{
+    cursor: pointer;
+    background-color: #427c29;
+
+}
