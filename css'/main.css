@@ -1,0 +1,85 @@
+@import url(./fonts_colors.css);
+
+.primeira-section {
+    margin-inline: 8.8125rem;
+}
+
+.s1-div1, .principal1, .terceira-section, .quinta-section, .setima-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 8.875rem;
+}
+
+.s1-div1 img {
+    width: 23.75rem;
+}
+
+.s1-div1 h2 {
+    text-align: center;
+    margin-top: 1.375rem;
+}
+
+.segunda-section img, .quarta-section img, .sexta-section img {
+    margin-right:6rem;
+    width: 37.1875rem;
+}
+
+.azuldeitado, .azuldeitado-3, .azuldeitado-2, .azuldeitado-4, .azuldeitado-6, .azuldeitado-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    background-color: var(--azul);
+    width: 41.25rem;
+    height: 13.5625rem;
+    border-radius: 30px;
+    margin-bottom: 3.6875rem;
+}
+
+.azulempe, .azulempe-2, .azulempe-3, .azulempe-4, .azulempe-5, .azulempe-6 {
+    width: 20rem;
+    height: 36.75rem;
+    background: var(--azul);
+    border-radius: 30px;
+    margin-top: 3.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.azulempe img, .azulempe-2 img, .azulempe-3 img, .azulempe-4 img, .azulempe-5 img, .azulempe-6 img {
+    width: 20rem;
+    height: 15.625rem;
+    margin-top: 0.8125rem;
+}
+
+.azulempemeio p, .azulempemeio-2 p, .azulempemeio-3 p{
+    margin-block: 3rem;
+}
+
+.azulempemeio, .azulempemeio-2, .azulempemeio-3 {
+    width: 20rem;
+    height: 36.75rem;
+    background: var(--azul);
+    border-radius: 30px;
+    margin-top: 3.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 4.3125rem;
+    margin-block: 3.5rem;
+}
+
+.seta {
+    background: #ffff;
+    float: right;
+    margin-right: 4.375rem;
+    margin-top: 2.6875rem;
+    margin-bottom: 5.875rem;
+}
+
+.seta img {
+    width: 3.125rem;
+}

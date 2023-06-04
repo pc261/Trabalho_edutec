@@ -2,3 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+:root {
+    --verde-botoes: #008037;
+    --verde-header: #BDE26C;
+    --verde-claro: #71C34E;
+    --azul: #4DA2C2;
+}
