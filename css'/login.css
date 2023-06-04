@@ -1,29 +1,27 @@
 @import url(./fonts_colors.css);
 
-
 main {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
-    gap: 73px;
+    gap: 4.5625rem;
 }
 
 .Logo_pagina_login {
-    width: 689px;
-    height: 640px;
+    width: 43.0625rem;
+    height: 40rem;
 }
 
 .parte_login {
-    width: 540px;
-    height: 486px;
+    width: 33.75rem;
+    height: 30.375rem;
     border-radius: 30px;
     background-color: #4DA2C2;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
 .itens_login {
@@ -38,49 +36,49 @@ main {
 
 #login_esc {
     width: 100%;
-    margin-left: 26.9px;
-    margin-top: 14px;
+    margin-left: 1.68125rem;
+    margin-top: 0.875rem;
     color: #fff;
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 58px;
+    font-size: 3.625rem;
 }
 
 .email {
-    margin-top: 15px;
-    width: 473px;
-    height: 50px;
+    margin-top: 0.9375rem;
+    width: 29.5625rem;
+    height: 3.125rem;
     border-radius: 20px;
     border: none;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 1.5625rem;
     padding: 1rem;
 
 }
 
 .senha {
-    margin-top: 15px;
-    width: 473px;
-    height: 50px;
+    margin-top: 0.9375rem;
+    width: 29.5625rem;
+    height: 3.125rem;
     border-radius: 20px;
     border: none;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 1.5625rem;
     padding: 1rem;
 }
 
 #botao_entrar {
-    width: 473px;
-    height: 50px;
-    border-radius: 5rem;
+    width: 29.5625rem;
+    height: 3.125rem;
+    border-radius: 80px;
     border: none;
     text-decoration: none;
     background-color: #BDE26C;
     color: #fff;
-    margin-bottom: 21px;
+    margin-bottom: 1.3125rem;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: bold;
 }
 
@@ -88,37 +86,37 @@ main {
     text-decoration: none;
     color: #034187;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    margin-bottom: 23px;
+    font-size: 1.5625rem;
+    margin-bottom: 1.4375rem;
 }
+
 hr {
-    width: 473px;
+    width: 29.5625rem;
     border: 2px black solid ;
     border-radius: 10rem;
 }
+
 #criar_conta {
     border: none;
     color: #fff;
     background-color: #7ED957;
-    margin-top: 37px;
-    margin-bottom: 27px;
-    width: 287px;
-    height: 50px;
-    border-radius: 15rem;
+    margin-top: 2.3125rem;
+    margin-bottom: 1.6875rem;
+    width: 17.9375rem;
+    height: 3.125rem;
+    border-radius: 240px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 /* -----------hover---------- */
 
-
 #botao_entrar:hover {
     font-family: 'Montserrat', sans-serif;
     background-color: #8FBC2D;
-    font-size: 25px;
+    font-size: 1.5625rem;
     cursor: pointer;
 }
-
 
 #botao_esqueceu:hover {
     color:  #0C68D1;

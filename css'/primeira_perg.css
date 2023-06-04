@@ -1,11 +1,12 @@
 @import url(./fonts_colors.css);
-main{
+
+main {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#fundo_azul{
+#fundo_azul {
     width: 62.875rem;
     height: 46rem;
     margin-top: 6.1875rem;
@@ -17,7 +18,8 @@ main{
     justify-content: center;
     align-items: center;
 }
-#topo{
+
+#topo {
     margin-block: 3.8125rem;
     margin-inline: 5.875rem;
     display:flex;
@@ -28,17 +30,20 @@ main{
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: bold;
 }
-#timer{
+
+#timer {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 1.1875rem;
 }
-#timer img{
+
+#timer img {
     width:3.625rem;
     height: 2.990625rem;
 }
-#pergunta{
+
+#pergunta {
     width: 56.25rem;
     height: 11.25rem;
     padding-inline: 5.1875rem;
@@ -55,7 +60,8 @@ main{
     font-weight: bold;
     font-size: 3rem;
 }
-.respostas{
+
+.respostas {
     width: 3.125rem;
     height: 3.125rem;
     border-radius: 0.625rem;
@@ -68,7 +74,8 @@ main{
     font-weight: bold;
     font-size: 2rem;
 }
-.resposta{
+
+.resposta {
     width: 29.5625rem;
     height: 3.125rem;
     border-radius: 1.25rem;

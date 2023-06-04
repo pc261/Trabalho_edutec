@@ -12,8 +12,8 @@ main {
     display: flex;
     justify-content: center;
     width: 100%;
-    font-size: 90px;
-    margin-top: 47px;
+    font-size: 5.625rem;
+    margin-top: 2.9375rem;
 }
 
 .imagens_do_centro {
@@ -33,23 +33,24 @@ main {
 }
 
 .imagem_tamanho {
-    width: 403px;
-    margin-bottom: 21px;
+    width: 25.1875rem;
+    margin-bottom: 1.3125rem;
 }
-#esquerda{
-    width: 433px;
-    margin-bottom: 2px;
+
+#esquerda {
+    width: 27.0625rem;
+    margin-bottom: 0.125rem;
 }
 
 .descrição {
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    margin-bottom: 92px;
+    font-size: 1.875rem;
+    margin-bottom: 5.75rem;
 }
 
 .texto_clique {
     display: flex;
     justify-content: center;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: 'Montserrat', sans-serif;
 }

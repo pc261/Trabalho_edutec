@@ -83,3 +83,7 @@
 .seta img {
     width: 3.125rem;
 }
+.seta:hover {
+    transform: rotateY(180deg);
+    transition: transform 1s;
+}

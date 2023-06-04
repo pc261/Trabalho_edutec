@@ -1,6 +1,6 @@
 @import url(./fonts_colors.css);
 
-body{
+body {
     display: flex;
     flex-direction: column;
 }
@@ -13,19 +13,19 @@ body{
 }
 
 #infos {
-    width: 768px;
-    height: 355px;
+    width: 48rem;
+    height: 22.1875rem;
     background-color: #4DA2C2;
     border-radius: 2rem;
 }
 
 #encontre {
-    margin-top: 22px;
-    margin-left: 16px;
-    margin-bottom: 5.5px;
+    margin-top: 1.375rem;
+    margin-left: 1rem;
+    margin-bottom: 0.34375rem;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: lighter;
 }
 
@@ -34,50 +34,49 @@ hr {
 }
 
 #digite_email {
-    margin-left: 16px;
-    margin-top: 43.5px;
+    margin-left: 1rem;
+    margin-top: 2.71875rem;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 #email {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 49px;
-    margin-bottom: 18px;
+    margin-top: 3.0625rem;
+    margin-bottom: 1.125rem;
 }
 
 #email input {
-    width: 700px;
-    height: 50px;
+    width: 43.75rem;
+    height: 3.125rem;
     padding: 1rem;
     border-radius: 1rem;
     text-decoration: none;
     border: none;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-
+    font-size: 1.5625rem;
 }
 
 #botões {
     display: flex;
     width: 100%;
     justify-content: right;
-    gap: 28px;
+    gap: 1.75rem;
 }
 
 #procura {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 150px;
-    height: 50px;
+    width: 9.375rem;
+    height: 3.125rem;
     text-decoration: none;
     border-radius: 20px;
-    margin-right: 31px;
-    font-size: 25px;
+    margin-right: 1.9375rem;
+    font-size: 1.5625rem;
     font-weight: bold;
     border: none;
     background-color: #BDE26C;
@@ -89,11 +88,11 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 150px;
-    height: 50px;
+    width: 9.375rem;
+    height: 3.125rem;
     text-decoration: none;
     border-radius: 20px;
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: bold;
     border: none;
     background-color: #E1DDDD;
