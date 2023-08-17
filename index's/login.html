@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="../assets/image.png" type="image/x-icon">
     <link rel="stylesheet" href="../css'/header.css">
     <link rel="stylesheet" href="../css'/login.css">
+    <script src="../scripts/criar_nova_conta.js" defer></script>
     <title>CO²</title>
 </head>
 
@@ -47,8 +48,22 @@
 
                 <hr>
 
-                <button id="criar_conta">Criar nova conta</button>
+                <button id="criar_conta" onclick="abrir_pop()">Criar nova conta</button>
             </div>
+
+            <dialog id="popup_criar">
+                <h1>Cadastre-se</h1>
+                <button id="Fechar_cadastro" >
+                    <img src="" alt="">
+                    <a href="">asdhghasdghashdgh</a>
+                </button>
+                <hr>
+                <input type="text" id="Nome" placeholder="Nome">
+                <input type="text" name="" id="Sobrenome" placeholder="Sobrenome">
+                <input type="email" name="" id="Email" placeholder="Email">
+                <input type="password" id="Senha" placeholder="Senha">
+                <input type="date" id="Data_nasc">
+            </dialog>
             
         </section>
     </main>
