@@ -48,25 +48,36 @@
 
                 <hr>
 
-                <button id="criar_conta" onclick="abrir_pop()">Criar nova conta</button>
+                <button class="criar_conta">Criar nova conta</button>
             </div>
 
-            <dialog id="popup_criar">
-                <h1>Cadastre-se</h1>
-                <button id="Fechar_cadastro" >
-                    <img src="" alt="">
-                    <a href="">asdhghasdghashdgh</a>
-                </button>
+            <dialog class="pop_up">
+
+                <div class="h2pop">
+                    <h2>Cadastre-se</h2>
+                </div>
+                
+                <div class="fecharimg">
+                    <img class="fechar" src="../assets/close.svg" alt="">
+                </div>
                 <hr>
-                <input type="text" id="Nome" placeholder="Nome">
-                <input type="text" name="" id="Sobrenome" placeholder="Sobrenome">
-                <input type="email" name="" id="Email" placeholder="Email">
-                <input type="password" id="Senha" placeholder="Senha">
-                <input type="date" id="Data_nasc">
+                <span>
+                    <input class="form" type="text" id="Nome" placeholder="Nome">
+                    <input class="form" type="text" name="" id="Sobrenome" placeholder="Sobrenome"> <br>
+                    <input class="form" type="email" name="" id="Email" placeholder="Email"> <br>
+                    <input class="form" type="password" id="Senha" placeholder="Senha"><br>
+                    <input class="form" type="date" id="Data_nasc">
+                </span>
+                    <button class="btnOK">Cadastre-se</button>
+                <hr>
             </dialog>
+
+
             
         </section>
     </main>
+
+    <script src="../scripts/pop_up_teste.js"></script>
 
 </body>
 </html>

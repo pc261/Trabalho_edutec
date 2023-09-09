@@ -97,7 +97,7 @@ hr {
     border-radius: 10rem;
 }
 
-#criar_conta {
+.criar_conta {
     border: none;
     color: #fff;
     background-color: #7ED957;
@@ -112,23 +112,53 @@ hr {
 
 /* -----------hover---------- */
 
-#botao_entrar:hover {
+.btnOK {
+    border: none;
+    color: #fff;
+    background-color: #7ED957;
+    margin-top: 2.3125rem;
+    margin-bottom: 1.6875rem;
+    width: 17.9375rem;
+    height: 3.125rem;
+    border-radius: 240px;
     font-family: 'Montserrat', sans-serif;
-    background-color: #8FBC2D;
-    font-size: 1.5625rem;
-    cursor: pointer;
-}
+    font-size: 1.875rem;
+    margin-left: 6rem;
+  }
 
-#botao_esqueceu:hover {
-    color:  #0C68D1;
-    font-family: 'Montserrat', sans-serif;
-    cursor: pointer;
-}
+  .h2pop, .fecharimg{
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-left: 0.8rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pop_up{
+    background-color: #4DA2C2;
+    color: #fff;
+  }
 
-#criar_conta:hover {
-    cursor: pointer;
-    background-color: #4CA426;
-    font-family: 'Montserrat', sans-serif;
-}
+  .pop_up h2{
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-right: 15rem;
+    margin-bottom: 1rem;
+  }
+
+  .form {
+    border-radius: 0.35rem;
+    color: #A09797;
+    width: 100%;
+    height: 2.4rem;
+  }
+
+  .fechar{
+    width: 150%;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+  }
 
 /* ---------- parte do pop-up do cadastro---------- */
