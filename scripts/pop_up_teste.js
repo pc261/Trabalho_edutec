@@ -3,7 +3,7 @@ const modal = document.querySelector("dialog")
 const fechar = document.querySelector("dialog .btnOK")
 
 criar_conta.onclick = function () {
-    modal.showModal()
+    modal.show()
 }
 
 fechar.onclick = function () {

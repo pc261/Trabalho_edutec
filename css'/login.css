@@ -133,8 +133,12 @@ hr {
     justify-content: center;
     align-items: center;
   }
+
+  .pop_up {
+    margin-inline: auto;
+  }
   
-  .pop_up{
+  .pop_up > div{
     background-color: #4DA2C2;
     color: #fff;
   }
