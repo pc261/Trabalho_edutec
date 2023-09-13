@@ -14,16 +14,16 @@ const botao_4 = document.querySelector("#botao_4")
 const popup_4 = document.querySelector("#popup4")
 const fechar_4 = document.querySelector("#fechar_4")
 
-botao_1.onclick = function (){ popup_1.showModal() }
+botao_1.onclick = function (){ popup_1.show() }
 fechar_1.onclick = function (){ popup_1.close() }
 
-botao_2.onclick = function (){ popup_2.showModal() }
+botao_2.onclick = function (){ popup_2.show() }
 fechar_2.onclick = function () { popup_2.close() }
 
-botao_3.onclick = function (){ popup_3.showModal() }
+botao_3.onclick = function (){ popup_3.show() }
 fechar_3.onclick = function () { popup_3.close() }
 
-botao_4.onclick = function (){ popup_4.showModal() }
+botao_4.onclick = function (){ popup_4.show() }
 fechar_4.onclick = function () { popup_4.close() }
 
 
