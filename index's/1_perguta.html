@@ -22,56 +22,44 @@
         <a class="login-button" href="./index's/login.html" class="nav-link">LOGIN</a>
             
     </header>
-    
+
     <main>
         <section id="fundo_azul">
-
             <section id="topo">
-                <h1>Pergunta 1</h1>
+                <h1 id="N_pergunta">1/10</h1>
                 <div id="timer">
                     <img src="../assets/iconclock.svg" alt="relogio muito legal e bonito">
-                    <p>00:20</p>
+                    <p id="countdown"></p>
                 </div>
             </section>
 
             <section id="pergunta">
-                <p>
+                <p id="pergunta_do_coiso">
                     De acordo com a OMS, a partir de quantos decibéis o som se torna nocivo à saúde?
                 </p>
             </section>
 
             <section>
                 <div>
-                    <a href="./2_pergunta.html">
-                        <button class="respostas">A</button>
-                        <button class="resposta">25</button>
-                    </a>
+                    <button class="respostas" onclick="responder('A')">A</button>
+                    <button id="resposta_A" onclick="responder('A')" class="resposta">25</button>
                 </div>
 
                 <div>
-                    <a href="./2_pergunta.html">
-                        <button class="respostas">B</button>
-                        <button class="resposta">35</button>
-                    </a>
+                    <button class="respostas" onclick="responder('B')">B</button>
+                    <button id="resposta_B"  onclick="responder('B')" class="resposta">35</button>
                 </div>
 
                 <div>
-                    <a href="./2_pergunta.html">
-                        <button class="respostas">C</button>
-                        <button class="resposta">60</button>
-                    </a>
+                    <button class="respostas" onclick="responder('C')">C</button>
+                    <button id="resposta_C" onclick="responder('C')" class="resposta">60</button>
                 </div>
 
                 <div>
-                    <a href="./2_pergunta.html" onclick="sis_pont(pontuação)">
-                        <button class="respostas">D</button>
-                        <button class="resposta">50</button>
-                    </a>
-                    
+                    <button class="respostas" onclick="responder('D')">D</button>
+                    <button id="resposta_D" onclick="responder('D')" class="resposta">50</button>
                 </div>
-
             </section>
-
         </section>
     </main>
 
