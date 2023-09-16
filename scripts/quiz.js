@@ -8,6 +8,7 @@ let currentQuestion = 1;
         let b = document.querySelector("#resposta_B"); 
         let c = document.querySelector("#resposta_C"); 
         let d = document.querySelector("#resposta_D"); 
+        let main = document.querySelector("#main_do_quiz");
 
         function startCountdown() {
             countdownInterval = setInterval(updateCountdown, 1000);
@@ -31,6 +32,7 @@ let currentQuestion = 1;
                 } else {
                     // Encerrar o quiz, você pode redirecionar para uma página de resultado ou exibir uma mensagem de conclusão.
                     alert('Quiz encerrado! Você respondeu todas as perguntas.');
+                    premios();
                 }
             }
         }
@@ -63,6 +65,7 @@ let currentQuestion = 1;
             } else {
                 // Encerrar o quiz, você pode redirecionar para uma página de resultado ou exibir uma mensagem de conclusão.
                 alert('Quiz encerrado! Você respondeu todas as perguntas.');
+                premios();
             }
         }
 
@@ -149,6 +152,72 @@ let currentQuestion = 1;
                 b.innerText = "Ferro, cobre, alumínio";
                 c.innerText = "Estrôncio, iodo, césio, cobalto, plutônio";
                 d.innerText = "Nenhumas das anteriores";
+            }
+        }
+        function premios(){
+
+            if (pontuação <= 4 ){
+                main.innerHTML = `
+                <link rel="stylesheet" href="../css'/parabens.css">
+            <section>
+                <h1 id = "qt_acertos"></h1>
+                <img id="imagem_trofeu" src="../assets/trofeu de bronze.svg" alt="Imagem de um troféu dourado que serve para indentificar o nível de intelecto do indivíduo bonito e legal que irá realizar o percurso difícil e quase impossível que irá provar o seu nível de superioridade dele a raça Humana oque vai acabar tornando ele um homo-sapiens2.0">
+                <h2>Parabéns!</h2>
+    
+                <a href="./revisao.html">
+                    <button class="botoes">REVER</button>
+                </a>
+    
+                <a href="./regras_quiz.html">
+                    <button class="botoes">REINICIAR</button>
+                </a>
+            </section>
+            </main>
+                `;
+            let mostrar_pont= document.querySelector("#qt_acertos");
+            mostrar_pont.innerText = `Você acertou ${pontuação}/10 questões`;
+            }
+            else if (pontuação > 4 && pontuação <= 7){
+                main.innerHTML = `
+                <link rel="stylesheet" href="../css'/parabens.css">
+            <section>
+                <h1 id = "qt_acertos"></h1>
+                <img id="imagem_trofeu" src="../assets/trofeu de prata.svg" alt="Imagem de um troféu dourado que serve para indentificar o nível de intelecto do indivíduo bonito e legal que irá realizar o percurso difícil e quase impossível que irá provar o seu nível de superioridade dele a raça Humana oque vai acabar tornando ele um homo-sapiens2.0">
+                <h2>Parabéns!</h2>
+    
+                <a href="./revisao.html">
+                    <button class="botoes">REVER</button>
+                </a>
+    
+                <a href="./regras_quiz.html">
+                    <button class="botoes">REINICIAR</button>
+                </a>
+            </section>
+            </main>
+                `;
+            let mostrar_pont= document.querySelector("#qt_acertos");
+            mostrar_pont.innerText = `Você acertou ${pontuação}/10 questões`;
+            }
+            else{
+                main.innerHTML = `
+                <link rel="stylesheet" href="../css'/parabens.css">
+            <section>
+                <h1 id = "qt_acertos"></h1>
+                <img id="imagem_trofeu" src="../assets/parabens.svg" alt="Imagem de um troféu dourado que serve para indentificar o nível de intelecto do indivíduo bonito e legal que irá realizar o percurso difícil e quase impossível que irá provar o seu nível de superioridade dele a raça Humana oque vai acabar tornando ele um homo-sapiens2.0">
+                <h2>Parabéns!</h2>
+    
+                <a href="./revisao.html">
+                    <button class="botoes">REVER</button>
+                </a>
+    
+                <a href="./regras_quiz.html">
+                    <button class="botoes">REINICIAR</button>
+                </a>
+            </section>
+            </main>
+                `;
+            let mostrar_pont= document.querySelector("#qt_acertos");
+            mostrar_pont.innerText = `Você acertou ${pontuação}/10 questões`;
             }
         }
     
