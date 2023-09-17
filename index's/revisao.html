@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="../assets/image.png" type="image/x-icon">
     <link rel="stylesheet" href="../css'/header.css">
     <link rel="stylesheet" href="../css'/revisao.css">
+    <script src="../scripts/revisao.js" defer></script>
     <title>CO²</title>
 </head>
 <body>
@@ -22,7 +23,7 @@
 
     <main>
         <section id="tamanho_quadras">
-            <h1>Revisão</h1>
+            <h1>REVISÃO</h1>
     
             <section>
                 <div class="pergunta">
@@ -34,8 +35,10 @@
                         <p>C</p>
                         <p class="correta">D</p>
                     </div>
+
+                    <button class="button" id="pergunta_1">REVER</button>  
     
-                    <button>REVER</button>
+
                 </div>
                 <div class="pergunta">
                     <h2>Pergunta 2</h2>
@@ -46,8 +49,10 @@
                         <p>C</p>
                         <p>D</p>
                     </div>
-    
-                    <button>REVER</button>
+                    
+                    <Button class="button" id="pergunta_2">REVER</Button>
+
+
                 </div>
                 <div class="pergunta">
                     <h2>Pergunta 3</h2>
@@ -59,7 +64,7 @@
                         <p>D</p>
                     </div>
     
-                    <button>REVER</button>
+                    <button class="button" id="pergunta_3">REVER</button>
                 </div>
                 <div class="pergunta">
                     <h2>Pergunta 4</h2>
@@ -71,7 +76,7 @@
                         <p>D</p>
                     </div>
     
-                    <button>REVER</button>
+                    <button class="button" id="pergunta_4">REVER</button>
                 </div>
                 <div class="pergunta">
                     <h2>Pergunta 5</h2>
@@ -83,7 +88,7 @@
                         <p class="correta">D</p>
                     </div>
     
-                    <button>REVER</button>
+                    <button class="button" id="pergunta_5">REVER</button>
                 </div>
                 <div class="pergunta">
                     <h2>Pergunta 6</h2>
@@ -95,10 +100,113 @@
                         <p>D</p>
                     </div>
     
-                    <button>REVER</button>
+                    <button class="button" id="pergunta_6">REVER</button>
                 </div>
+                <div class="pergunta">
+                    <h2>Pergunta 7</h2>
+    
+                    <div class="alternativas">
+                        <p>A</p>
+                        <p>B</p>
+                        <p>C</p>
+                        <p class="correta">D</p>
+                    </div>
+    
+                    <button class="button" id="pergunta_7">REVER</button>
+                </div>
+                <div class="pergunta">
+                    <h2>Pergunta 8</h2>
+    
+                    <div class="alternativas">
+                        <p>A</p>
+                        <p>B</p>
+                        <p class="correta">C</p>
+                        <p>D</p>
+                    </div>
+    
+                    <button class="button" id="pergunta_8">REVER</button>
+                </div>
+                <div class="pergunta">
+                    <h2>Pergunta 9</h2>
+    
+                    <div class="alternativas">
+                        <p>A</p>
+                        <p>B</p>
+                        <p>C</p>
+                        <p class="correta">D</p>
+                    </div>
+    
+                    <button class="button" id="pergunta_9">REVER</button>
+                </div>
+                <div class="pergunta">
+                    <h2>Pergunta 10</h2>
+    
+                    <div class="alternativas">
+                        <p>A</p>
+                        <p>B</p>
+                        <p class="correta">C</p>
+                        <p>D</p>
+                    </div>
+    
+                    <button class="button" id="pergunta_10">REVER</button>
+                </div>
+
+
             </section>
+
         </section>
+
+        <dialog class = "popup" id="popup1">
+            <button id="fechar_1" class="fechar">X</button>
+            <img  class="imagens_mapa" src="../assets/1.svg" alt="mapa mental sobre as poluições">
+        </dialog>
+
+        <dialog class = "popup" id="popup2">
+            <button id="fechar_2" class="fechar">X</button>
+            <img class="imagens_mapa" src="../assets/2.svg" alt="mapa mental sobre as poluições">
+        </dialog>
+
+        <dialog class = "popup" id="popup3">
+            <button id="fechar_3" class="fechar">X</button>
+            <img class="imagens_mapa" src="../assets/3.svg" alt="mapa mental sobre as poluições">
+        </dialog>
+
+        <dialog class = "popup" id="popup4">
+            <button id="fechar_4" class="fechar">X</button>
+            <img class="imagens_mapa" src="../assets/4.svg" alt="mapa mental sobre as poluições">
+        </dialog>
+
+        <dialog class = "popup" id="popup5">
+            <button id="fechar_5" class="fechar">X</button>
+            <img class="imagens_mapa" src="../assets/5.svg" alt="mapa mental sobre as poluições">
+        </dialog>
+
+        <dialog class = "popup" id="popup6">
+            <button id="fechar_6" class="fechar">X</button>
+            <img class="imagens_mapa" src="../assets/6.svg" alt="mapa mental sobre as poluições">
+        </dialog>
+
+        <dialog class = "popup" id="popup7">
+            <button id="fechar_7" class="fechar">X</button>
+            <img class="imagens_mapa" src="../assets/7.svg" alt="mapa mental sobre as poluições">
+        </dialog>
+
+        <dialog class = "popup" id="popup8">
+            <button id="fechar_8" class="fechar">X</button>
+            <img class="imagens_mapa" src="../assets/8.svg" alt="mapa mental sobre as poluições">
+        </dialog>
+
+        <dialog class = "popup" id="popup9">
+            <button id="fechar_9" class="fechar">X</button>
+            <img class="imagens_mapa" src="../assets/9.svg" alt="mapa mental sobre as poluições">
+        </dialog>
+        
+        
+        <dialog class = "popup" id="popup10">
+            <button id="fechar_10" class="fechar">X</button>
+            <img class="imagens_mapa" src="../assets/10.svg" alt="mapa mental sobre as poluições">
+        </dialog>
+
     </main>
 </body>
 </html>

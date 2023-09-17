@@ -25,5 +25,3 @@ fechar_3.onclick = function () { popup_3.close() }
 
 botao_4.onclick = function (){ popup_4.show() }
 fechar_4.onclick = function () { popup_4.close() }
-
-

@@ -20,51 +20,32 @@ let currentQuestion = 1;
             countdown--;
 
             if (countdown === -1) {
-               
-                // Avançar para a próxima pergunta ou encerrar o quiz
                 
-                
-                if (currentQuestion < 10) { // Altere para o número total de perguntas
+                if (currentQuestion < 10) { 
                     currentQuestion++;
-                    // Redirecionar para a próxima pergunta
                     passarQuestao();
                     countdown = 20;
                 } else {
-                    // Encerrar o quiz, você pode redirecionar para uma página de resultado ou exibir uma mensagem de conclusão.
-                    alert('Quiz encerrado! Você respondeu todas as perguntas.');
                     premios();
                 }
             }
         }
 
         function responder(resposta) {
-            // Lógica para verificar a resposta aqui
-            // Você pode adicionar um sistema de pontuação ou feedback aqui
-            // Por exemplo, você pode usar um objeto JavaScript para rastrear as respostas corretas e pontuação.
-            // Exemplo:
             const respostasCorretas = {
-                1: 'D', 2: 'B', 3: 'A', 4: 'C', 5: 'D', 6: 'C', 7: 'D', 8: 'C', 9: 'D', 10: 'C' // Mapear a resposta correta para cada pergunta
-                // Adicione as respostas corretas para as outras perguntas
+                1: 'D', 2: 'B', 3: 'A', 4: 'C', 5: 'D', 6: 'C', 7: 'D', 8: 'C', 9: 'D', 10: 'C'
+
             };
 
             if (resposta === respostasCorretas[currentQuestion]) {
                 pontuação ++;
-                alert(`Sua pontuação ${pontuação}`);
-
-                
-            } else {
-                alert('Resposta incorreta. Tente novamente.');
-                
             }
 
-            // Avançar para a próxima pergunta
-            if (currentQuestion < 10) { // Altere para o número total de perguntas
+            if (currentQuestion < 10) { 
                 currentQuestion++;
                 passarQuestao();
                 
             } else {
-                // Encerrar o quiz, você pode redirecionar para uma página de resultado ou exibir uma mensagem de conclusão.
-                alert('Quiz encerrado! Você respondeu todas as perguntas.');
                 premios();
             }
         }
@@ -162,7 +143,7 @@ let currentQuestion = 1;
             <section>
                 <h1 id = "qt_acertos"></h1>
                 <img id="imagem_trofeu" src="../assets/trofeu de bronze.svg" alt="Imagem de um troféu dourado que serve para indentificar o nível de intelecto do indivíduo bonito e legal que irá realizar o percurso difícil e quase impossível que irá provar o seu nível de superioridade dele a raça Humana oque vai acabar tornando ele um homo-sapiens2.0">
-                <h2>Parabéns!</h2>
+                <h2>ESTUDE MAIS!</h2>
     
                 <a href="./revisao.html">
                     <button class="botoes">REVER</button>
@@ -183,7 +164,7 @@ let currentQuestion = 1;
             <section>
                 <h1 id = "qt_acertos"></h1>
                 <img id="imagem_trofeu" src="../assets/trofeu de prata.svg" alt="Imagem de um troféu dourado que serve para indentificar o nível de intelecto do indivíduo bonito e legal que irá realizar o percurso difícil e quase impossível que irá provar o seu nível de superioridade dele a raça Humana oque vai acabar tornando ele um homo-sapiens2.0">
-                <h2>Parabéns!</h2>
+                <h2>DÁ PARA MELHORAR!</h2>
     
                 <a href="./revisao.html">
                     <button class="botoes">REVER</button>
@@ -204,7 +185,7 @@ let currentQuestion = 1;
             <section>
                 <h1 id = "qt_acertos"></h1>
                 <img id="imagem_trofeu" src="../assets/parabens.svg" alt="Imagem de um troféu dourado que serve para indentificar o nível de intelecto do indivíduo bonito e legal que irá realizar o percurso difícil e quase impossível que irá provar o seu nível de superioridade dele a raça Humana oque vai acabar tornando ele um homo-sapiens2.0">
-                <h2>Parabéns!</h2>
+                <h2>PARABÉNS!</h2>
     
                 <a href="./revisao.html">
                     <button class="botoes">REVER</button>
@@ -221,7 +202,4 @@ let currentQuestion = 1;
             }
         }
     
-
-        
-        // Iniciar o contador assim que a página for carregada
         window.onload = startCountdown;
