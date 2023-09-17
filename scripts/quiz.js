@@ -43,7 +43,7 @@ let currentQuestion = 1;
             // Por exemplo, você pode usar um objeto JavaScript para rastrear as respostas corretas e pontuação.
             // Exemplo:
             const respostasCorretas = {
-                1: 'D',2: 'D',3: 'D',4: 'D',5: 'D',6: 'D',7: 'D',8: 'D',9: 'D',10: 'D' // Mapear a resposta correta para cada pergunta
+                1: 'D', 2: 'B', 3: 'A', 4: 'C', 5: 'D', 6: 'C', 7: 'D', 8: 'C', 9: 'D', 10: 'C' // Mapear a resposta correta para cada pergunta
                 // Adicione as respostas corretas para as outras perguntas
             };
 
@@ -138,7 +138,7 @@ let currentQuestion = 1;
             else if (currentQuestion == 9 ) {
                 countdown = 20;
                 n_perg .innerText = "9/10";
-                perg.innerText = "Quais são os tipos de elementos que contribuem para o desconforto visual gerado pela comunicação visual em excesso?";
+                perg.innerText = "Quais são os elementos que contribuem para o desconforto visual gerado pela comunicação visual em excesso?";
                 a.innerText = "Obras de arte públicas e usinas";
                 b.innerText = "Sinalização de trânsito e pichações";
                 c.innerText = "Espaços verdes e parques";
