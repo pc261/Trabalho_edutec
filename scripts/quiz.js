@@ -81,7 +81,7 @@ let currentQuestion = 1;
                 d.innerText = "Visual";
             }
             else if (currentQuestion == 5 ) {
-                countdown = 20;
+                countdown = 30;
                 n_perg .innerText = "5/10";
                 perg.innerText = "Das alternativas abaixo, qual delas não apresenta um possível efeito da radiação em seres humanos?";
                 a.innerText = "Mutações gênicas/genéticas";
@@ -108,7 +108,7 @@ let currentQuestion = 1;
                 d.innerText = "Doenças cardiovasculares";
             }
             else  if (currentQuestion == 8 ) {
-                countdown = 20;
+                countdown = 30;
                 n_perg .innerText = "8/10";
                 perg.innerText = "Qual é uma das consequências do excesso de elementos destinados à comunicação visual?";
                 a.innerText = "Melhoria na estética das cidades";
@@ -117,7 +117,7 @@ let currentQuestion = 1;
                 d.innerText = "Nenhuma das anteriores";
             }
             else if (currentQuestion == 9 ) {
-                countdown = 20;
+                countdown = 30;
                 n_perg .innerText = "9/10";
                 perg.innerText = "Quais são os elementos que contribuem para o desconforto visual gerado pela comunicação visual em excesso?";
                 a.innerText = "Obras de arte públicas e usinas";
@@ -126,7 +126,7 @@ let currentQuestion = 1;
                 d.innerText = "Cartazes publicitários e outdoors";
             }
             else {
-                countdown = 20;
+                countdown = 30;
                 n_perg .innerText = "10/10";
                 perg.innerText = "Quais são alguns dos elementos tóxicos liberados durante os acidentes nucleares?";
                 a.innerText = "Oxigênio, nitrogênio, argônio";
