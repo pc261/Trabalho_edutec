@@ -1,11 +1,11 @@
 @import url(./fonts_colors.css);
 
 main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    gap: 4.5625rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.5625rem;
+  margin-top: 5rem;
 }
 
 .Logo_pagina_login {

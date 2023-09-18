@@ -116,16 +116,18 @@ button {
     color: aliceblue solid bold;
 
 }
-.popup{
+.popup {
     margin-inline: auto;
     box-shadow: 0rem 0rem 15rem 0.7rem black;
     background-color: #4DA2C2;
     padding: auto;
     border-radius: 3rem;
+    border: none;
 }
 
 dialog img {
-    width: 100%;
+    width: 50vw;
+    height: 60vh;
 }
 
 .fechar{
@@ -135,4 +137,4 @@ dialog img {
     height: 2.5rem;
     color: white;
     font-size: 1.5rem;
-}
+}   
