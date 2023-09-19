@@ -4,6 +4,10 @@
     margin-inline: 8.8125rem;
 }
 
+.s1-div1{
+    gap: 4rem;
+}
+
 .s1-div1, .principal1, .terceira-section, .quinta-section, .setima-section {
     display: flex;
     justify-content: center;
