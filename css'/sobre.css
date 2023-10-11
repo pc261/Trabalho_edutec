@@ -6,11 +6,26 @@ main {
     justify-content: center;
 }
 
+
+.Igor, .JP, .FL, .JL, .KK{
+    border-radius: 800px;
+}
+
+.icone{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.oi{
+    margin-left: 10px;
+}
+
 #fundo_azul {
     background: #4DA2C2;
     border-radius: 24px;
-    height: 87.5rem;
-    width: 63.75rem;
+    height: 98.5rem;
+    width: 66.75rem;
     padding: 5.5rem;
     margin-bottom: 5rem;
 }
@@ -19,16 +34,18 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap: 9.25rem;
+    gap: 8.25rem;
     text-align: center;
     margin-bottom: 5.9375rem;
 }
 
-.cima img {
+
+.cima .Igor, .FL, .JL, .JP, .KK{
     margin-bottom: 1.5625rem;
     width: 12rem;
     height: 12.0625rem;
 }
+
 
 h1, h2 {
     margin-bottom: 2.5rem;
