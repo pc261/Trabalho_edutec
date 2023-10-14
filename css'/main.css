@@ -94,3 +94,83 @@
     transform: rotateY(180deg);
     transition: transform 1s;
 }
+
+@media screen and (max-width: 768px) {
+
+    h1{
+        color: red;
+    }
+
+    header{
+        width: 100vw;
+        gap: .5rem;
+        height: 6.625rem;
+      }
+    
+      .logotipo {
+        margin-top: 1.5rem;
+        width: 5.625rem;
+        height: 5.625rem;
+    }
+    
+      .button{
+        font-size: 1rem;
+        height: 2.4rem;
+      }
+    
+      .login-button{
+        font-size: 1rem;
+        height: 2.4rem;
+      }
+
+    .primeira-section {
+        margin-inline: 2rem; 
+    }
+
+    .s1-div1, .principal1, .terceira-section, .quinta-section, .setima-section {
+        flex-direction: column;
+        align-items: center; 
+        margin-top: 5rem;
+    }
+
+    .s1-div1 img {
+        width: 100%; 
+    }
+
+    .s1-div1 h2 {
+        text-align: center;
+        margin-top: 1rem; 
+    }
+
+    .segunda-section img, .quarta-section img, .sexta-section img {
+        margin-right: 0; 
+        width: 100%; 
+    }
+
+    .azuldeitado, .azuldeitado-3, .azuldeitado-2, .azuldeitado-4, .azuldeitado-6, .azuldeitado-5 {
+        width: 100%; 
+        margin-bottom: 2rem; 
+    }
+
+    .azulempe, .azulempe-2, .azulempe-3, .azulempe-4, .azulempe-5, .azulempe-6, .azulempemeio, .azulempemeio-2, .azulempemeio-3 {
+        width: 100%; 
+        height: auto; 
+        margin-top: 2rem; 
+        margin-inline: 1rem; 
+        margin-block: 2rem; 
+    }
+
+    .azulempemeio p, .azulempemeio-2 p, .azulempemeio-3 p {
+        margin-block: 2rem; 
+    }
+
+    .seta {
+        float: none; 
+        margin: 2rem auto; 
+    }
+
+    .seta img {
+        width: 2rem; 
+        margin-bottom: 0.5rem; 
+    }
+}

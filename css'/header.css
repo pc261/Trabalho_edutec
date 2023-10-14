@@ -77,3 +77,20 @@ header {
     transform: rotate(360deg);
     transition: transform 1.5s;
 }
+
+@media screen and (max-width: 768px) {
+    header {
+        gap: 1rem;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .logotipo {
+        margin-bottom: 1rem;
+    }
+
+    .login-button, .button {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+}

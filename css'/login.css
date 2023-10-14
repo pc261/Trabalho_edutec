@@ -166,3 +166,78 @@ hr {
   }
 
 /* ---------- parte do pop-up do cadastro---------- */
+
+@media screen and (max-width: 768px) {
+
+  header{
+    width: 100vw;
+    gap: .5rem;
+    height: 6.625rem;
+  }
+
+  .logotipo {
+    margin-top: 1.5rem;
+    width: 5.625rem;
+    height: 5.625rem;
+}
+
+  .button{
+    font-size: 1rem;
+    height: 2.4rem;
+  }
+
+  .login-button{
+    font-size: 1rem;
+    height: 2.4rem;
+  }
+
+  main{
+    flex-direction: column;
+  }
+
+  body{
+    width: 100%;
+  }
+
+  .Logo_pagina_login {
+    width: 100%;
+    height: auto;
+  }
+
+  .parte_login {
+    width: 80%;
+    height: auto;
+    padding: 2rem;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  #login_esc {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .email, .senha {
+    width: 80%;
+  }
+
+  #botao_entrar, .btnOK {
+    width: 80%;
+  }
+
+
+  .fechar {
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+  }
+
+  hr {
+    width: 80%;
+  }
+
+  .pop_up h2 {
+    font-size: 1.5rem;
+  }
+}

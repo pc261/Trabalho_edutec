@@ -84,3 +84,70 @@ h1, h2 {
     src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw0aXpsog.woff2) format('woff2');
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
+
+@media screen and (max-width: 768px) {
+
+
+    header{
+        width: 100vw;
+        gap: .5rem;
+        height: 6.625rem;
+      }
+    
+      .logotipo {
+        margin-top: 1.5rem;
+        width: 5.625rem;
+        height: 5.625rem;
+    }
+    
+      .button{
+        font-size: 1rem;
+        height: 2.4rem;
+      }
+    
+      .login-button{
+        font-size: 1rem;
+        height: 2.4rem;
+      }
+      
+    main {
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #fundo_azul {
+        width: 90%;
+        height: auto;
+        padding: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .cima {
+        flex-direction: column;
+        gap: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .cima .Igor, .FL, .JL, .JP, .KK{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    h1, h2 {
+        font-size: 2.5rem;
+    }
+
+    .cima p, #quemSomos p {
+        font-size: 1.4rem;
+    }
+
+    .icone{
+        margin-left: 3rem;
+    }
+}
