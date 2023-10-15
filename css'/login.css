@@ -13,6 +13,7 @@ main {
     height: 40rem;
 }
 
+
 .parte_login {
     width: 33.75rem;
     height: 30.375rem;
@@ -113,64 +114,92 @@ hr {
 /* -----------hover---------- */
 
 .btnOK {
-    border: none;
-    color: #fff;
-    background-color: #7ED957;
-    margin-top: 2.3125rem;
-    margin-bottom: 1.6875rem;
-    width: 17.9375rem;
-    height: 3.125rem;
-    border-radius: 240px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.875rem;
-    margin-left: 6rem;
-  }
+  border: none;
+  color: #fff;
+  background-color: #7ED957;
+  margin-top: 2.3125rem;
+  margin-bottom: 1.6875rem;
+  width: 17.9375rem;
+  height: 3.125rem;
+  border-radius: 2.4rem; 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.875rem;
+  margin-left: auto; 
+  margin-right: auto;
+  display: block; 
+}
 
-  .h2pop, .fecharimg{
-    display: inline-block;
-    margin-top: 0.5rem;
-    margin-left: 0.8rem;
-    justify-content: center;
-    align-items: center;
-  }
+.h2pop, .fecharimg {
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-left: 0.8rem;
+  justify-content: center;
+  align-items: center;
+  color: #4DA2C2;
+}
 
-  .pop_up {
-    margin-inline: auto;
-  }
-  
-  .pop_up > div{
-    background-color: #4DA2C2;
-    color: #fff;
-  }
+.pop_up {
+  margin: 0 auto;
+  width: 70%;
+  max-width: 30rem;
+  border: none;
+  box-shadow: 0px 0px 8px 2px #000000;
+}
 
-  .pop_up h2{
-    font-size: 2rem;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    margin-right: 15rem;
-    margin-bottom: 1rem;
-  }
+.pop_up > div {
+  background-color: #4DA2C2;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 0.35rem;
+}
 
-  .form {
-    border-radius: 0.35rem;
-    color: #A09797;
-    width: 100%;
-    height: 2.4rem;
-  }
+.pop_up h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
 
-  .fechar{
-    width: 150%;
-    margin-left: 0.5rem;
-    margin-top: 0.5rem;
-  }
+.form {
+  border: 1px solid #A09797;
+  border-radius: 0.35rem;
+  color: #A09797;
+  width: 100%;
+  height: 2.4rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.fechar {
+  width: 100%;
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  background-color: #4DA2C2;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.35rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.fechar:hover {
+  background-color: #368496;
+}
+
+
 
 /* ---------- parte do pop-up do cadastro---------- */
 
 @media screen and (max-width: 768px) {
 
   header{
-    width: 100vw;
+    width: 100.7vw;
     gap: .5rem;
     height: 6.625rem;
   }
@@ -190,6 +219,12 @@ hr {
     font-size: 1rem;
     height: 2.4rem;
   }
+
+  .button:hover, .login-button:hover {
+    box-shadow: 6px 6px 20px hsla(0, 0%, 0%, 0.5);
+    font-size: 1rem;
+    background-color: hsl(146, 100%, 32%);
+}
 
   main{
     flex-direction: column;
@@ -238,6 +273,28 @@ hr {
   }
 
   .pop_up h2 {
+    font-size: 1.0rem;
+  }
+
+  .btnOK{
     font-size: 1.5rem;
+  }
+  .fechar {
+    width: 30%;
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+    background-color: #4DA2C2;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.35rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
   }
 }

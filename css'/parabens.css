@@ -72,3 +72,30 @@ button {
     box-shadow: 6px 6px 20px hsla(0, 0%, 0%, 0.5);
     background-color:#3c7201;
 }
+
+@media (max-width: 768px) {
+    section {
+        padding: 1rem;
+        width: 90vw;
+        height: auto;
+    }
+
+    section img {
+        width: 80%;
+        max-width: 200px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    button {
+        height: 2.5rem;
+        width: 8rem;
+        font-size: 1.2rem;
+    }
+}

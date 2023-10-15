@@ -146,3 +146,79 @@
 .azulempe2-6 img{
     width: 17rem;
 }
+
+@media (max-width: 768px) {
+
+    .poluicao, .poluição1{
+        font-size: 4.8rem;
+    }
+
+    p{
+        margin-top: .9rem;
+        margin-bottom: .9rem;
+        font-size: 1.3rem;
+    }
+
+    .primeira-section, .x {
+        margin-inline: 2rem;
+        margin-bottom: 5rem;
+    }
+
+    .s1-div1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        gap: 2rem;
+    }
+
+    .principal1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        margin-bottom: 5rem;
+    }
+
+    .retangulos, .azuldeitado, .azuldeitado2-2, .azuldeitado-3, .azuldeitado2-4, .azuldeitado2-5, .azuldeitado2-6, .azulempe2, .azulempemeio2, .azulempe2-3, .azulempemeio2-2, .azulempe2-5, .azulempemeio2-3, .azulempe2-6, .azulempemeio2-3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .principal1 a img, #imagem-sonora img, #imagemVisual img, .azulempemeio2-3 img, .azulempe2-6 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .terceira-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .seta {
+        float: none;
+        margin: 2rem auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+    .seta img {
+        width: 3.125rem;
+
+    }
+
+    .seta:hover {
+        transform: none;
+    }
+
+    .setima-section{
+        flex-direction: column;
+    }
+}

@@ -110,3 +110,28 @@ hr {
     cursor: pointer;
     background-color: #4CA426;
 }
+
+@media only screen and (max-width: 600px) {
+    #infos{
+        width: 90vw;
+        height: auto;
+    }
+    #cancela, #procura{
+        width: 8rem;
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 1rem;
+    }
+    #email input{
+        width: 97%;
+    }
+    #digite_email{
+        font-size: 1.3rem;
+    }
+    #encontre{
+        font-size: 1.9rem;
+        margin-bottom: 1rem;
+    }
+}

@@ -89,7 +89,7 @@ h1, h2 {
 
 
     header{
-        width: 100vw;
+        width: 100.7vw;
         gap: .5rem;
         height: 6.625rem;
       }
@@ -99,16 +99,21 @@ h1, h2 {
         width: 5.625rem;
         height: 5.625rem;
     }
-    
       .button{
         font-size: 1rem;
         height: 2.4rem;
       }
     
       .login-button{
-        font-size: 1rem;
+        font-size: .8rem;
         height: 2.4rem;
       }
+
+      .button:hover, .login-button:hover {
+        box-shadow: 6px 6px 20px hsla(0, 0%, 0%, 0.5);
+        font-size: 1rem;
+        background-color: hsl(146, 100%, 32%);
+    }
       
     main {
         margin-top: 3rem;
@@ -150,4 +155,5 @@ h1, h2 {
     .icone{
         margin-left: 3rem;
     }
+    
 }

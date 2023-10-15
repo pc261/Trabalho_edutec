@@ -165,8 +165,13 @@ dialog img {
 }
 
 @media screen and (max-width: 768px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
     header{
-        width: 100vw;
+        width: 100.7vw;
         gap: .5rem;
         height: 6.625rem;
       }
@@ -186,11 +191,18 @@ dialog img {
         height: 2.4rem;
       }
 
+      .button:hover, .login-button:hover {
+        box-shadow: 6px 6px 20px hsla(0, 0%, 0%, 0.5);
+        font-size: 1rem;
+        background-color: hsl(146, 100%, 32%);
+    }
+
       #escolha{
         flex-direction: column;
         margin-bottom: 5rem;
-        width: 10vw;
-        justify-content: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
       #superior{
@@ -211,9 +223,35 @@ dialog img {
     }
 
     .mapa {
+        width: 90vw;
+        height: 15rem;
         margin-bottom: 3.5625rem;
         border-radius: 30px;
         background-color: #4DA2C2;
+        margin-right: 2.5rem;
+    }
+
+    .imagens_mapa{
+        width: 85vw;
+    }
+
+
+    .botoes{
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    .caixa_botao{
+        width: 90vw;
+        height: 18rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #link_youtube{
+        width: 80vw;
+        height: 16rem;
     }
 
     #ir_topo {
@@ -239,6 +277,10 @@ dialog img {
 
     #ir_topo img {
         width: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
     }
 
     .popup {

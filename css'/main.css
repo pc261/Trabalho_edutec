@@ -96,33 +96,11 @@
 }
 
 @media screen and (max-width: 768px) {
-
+    
     h1{
-        color: red;
-    }
-
-    header{
-        width: 100vw;
-        gap: .5rem;
-        height: 6.625rem;
-      }
-    
-      .logotipo {
-        margin-top: 1.5rem;
-        width: 5.625rem;
-        height: 5.625rem;
+        font-size: 4.8rem;
     }
     
-      .button{
-        font-size: 1rem;
-        height: 2.4rem;
-      }
-    
-      .login-button{
-        font-size: 1rem;
-        height: 2.4rem;
-      }
-
     .primeira-section {
         margin-inline: 2rem; 
     }
@@ -131,10 +109,14 @@
         flex-direction: column;
         align-items: center; 
         margin-top: 5rem;
+        font-size: 1rem;
     }
 
     .s1-div1 img {
-        width: 100%; 
+        width: 90%; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .s1-div1 h2 {
@@ -145,15 +127,24 @@
     .segunda-section img, .quarta-section img, .sexta-section img {
         margin-right: 0; 
         width: 100%; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .azuldeitado, .azuldeitado-3, .azuldeitado-2, .azuldeitado-4, .azuldeitado-6, .azuldeitado-5 {
-        width: 100%; 
         margin-bottom: 2rem; 
+        width: 90vw;
+        font-size: 1rem;
+    }
+
+    p{
+        margin-top: .9rem;
+        font-size: 1.3rem;
     }
 
     .azulempe, .azulempe-2, .azulempe-3, .azulempe-4, .azulempe-5, .azulempe-6, .azulempemeio, .azulempemeio-2, .azulempemeio-3 {
-        width: 100%; 
+        width: 90vw; 
         height: auto; 
         margin-top: 2rem; 
         margin-inline: 1rem; 
@@ -167,10 +158,22 @@
     .seta {
         float: none; 
         margin: 2rem auto; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .seta img {
         width: 2rem; 
-        margin-bottom: 0.5rem; 
+        margin-bottom: 0.8rem; 
+
+    }
+
+    #atmosferica, #terrestre, #hidrica{
+        font-size: 4.5rem;
+    }
+
+    .img_terrestre{
+        margin-bottom: 1rem;
     }
 }
